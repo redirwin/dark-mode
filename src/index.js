@@ -20,8 +20,10 @@ const App = () => {
   }, []);
   return (
     <div className="App">
-      <Navbar />
-      <Charts coinData={coinData} />
+      <div>
+        <Navbar />
+        <Charts coinData={coinData} />
+      </div>
     </div>
   );
 };
